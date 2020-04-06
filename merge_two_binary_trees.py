@@ -8,8 +8,9 @@
 # Solution using recursion
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
-        if t1 == None or t2 == None:
+        if not (t1 and t2):
             return t1 or t2 # will return the non-None value,or if both None, None.
+        
         # t1.left is merged result of t1.left and t2.left
         # t1.right is merged result of t1.right and t2.right
 
