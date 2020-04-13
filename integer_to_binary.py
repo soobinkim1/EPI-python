@@ -12,3 +12,8 @@ def integer_to_binary(n):
         binary = binary + str(remainders.pop())
     
     return binary
+
+
+#  print(integer_to_binary(3))
+# print(integer_to_binary(4))
+# print(integer_to_binary(5))

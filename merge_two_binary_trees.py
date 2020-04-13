@@ -57,7 +57,4 @@ class xSolution:
             if temp2.right != None:
                 queue2.append(temp2.right)
                 
-        return head
-
-class Solution2:
-    def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode: 
+        return heads
